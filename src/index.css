@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Manrope";
+  src: url(./Fonts/Manrope-Medium.ttf);
+}
+* {
+  font-family: "Manrope";
+}
+.link {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+}
+header {
+  background-color: #141414;
+}
+.PPP {
+  color: #ffffff;
+}
+.h1 {
+  font-family: Manrope;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 2px;
+  text-align: left;
+}
